@@ -1,0 +1,10 @@
+{
+  "name": "pitchpulse",
+  "private": true,
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev:react": "npm --workspace @pitchpulse/react run dev",
+    "dev:vue": "npm --workspace @pitchpulse/vue run dev",
+    "build": "npm run build --workspaces"
+  }
+}
